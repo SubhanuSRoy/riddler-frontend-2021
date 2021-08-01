@@ -3,16 +3,16 @@ import Brice from "./assets/Brice-Regular.otf";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  // height: 100%;
+  /* // height: 100%;
   // width: 100%;
   // background-color: black;
   // display: flex;
   // flex-direction: column;
   // justify-content: center;
-  // /* align-items: center; */
+  // align-items: center;
   // position: relative;
   // z-index: -1;
-  // text-align: center;
+  // text-align: center; */
 
   min-height: calc(100vh - 80px);
   display: flex;
