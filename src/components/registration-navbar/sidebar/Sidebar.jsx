@@ -75,7 +75,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/game">PLAY NOW</SidebarRoute>
+          <SidebarRoute href="#" target="_blank">SOLUTIONS</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

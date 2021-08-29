@@ -13,23 +13,23 @@ import {
   HomeBtnWrapper,
   Button,
   RiddlerLogo,
-  AboutBg
+  AboutBg,
 } from "./HomeElements";
 
 function Home() {
-
   return (
     <HomeContainer id="home">
-      <AboutBg>
-        </AboutBg>
+      <AboutBg></AboutBg>
       <HomeContent>
         <RiddlerLogo>
           <img src={riddlerLogo} alt="Riddler Logo" />
           {/* <img className="shadow" src={riddlerLogoSvg} alt="Riddler Logo" /> */}
         </RiddlerLogo>
-        <p className="dates">20<sup className="superscript">th</sup> - 22<sup className="superscript">nd</sup> August 2021</p>
+        <p className="dates">
+          Riddler'21 has officially ended!
+        </p>
         <HomeBtnWrapper>
-            <Button to="/game">PLAY NOW</Button>
+          <Button href="#" target="_blank">SOLUTIONS</Button>
         </HomeBtnWrapper>
       </HomeContent>
     </HomeContainer>

@@ -114,7 +114,7 @@ export const NavBtn = styled.nav`
     display: none;
   }
 `;
-export const NavBtnLink = styled(LinkRouter)`
+export const NavBtnLink = styled.a`
   border-radius: 50px;
   background: black;
   white-space: nowrap;

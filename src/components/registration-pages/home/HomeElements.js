@@ -110,7 +110,7 @@ export const HomeBtnWrapper = styled.div`
   height: 50px;
 `;
 
-export const Button = styled(LinkRoute)`
+export const Button = styled.a`
   border-radius: 30px;
   white-space: nowrap;
   padding: 10px 20px;

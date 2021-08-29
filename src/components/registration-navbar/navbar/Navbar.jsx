@@ -94,15 +94,8 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink
-              to="/game"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              offset={-80}
-            >
-              PLAY NOW
+            <NavBtnLink href="#" target="_blank">
+              SOLUTIONS
             </NavBtnLink>
           </NavBtn>
         </NavbarContainer>

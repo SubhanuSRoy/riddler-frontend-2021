@@ -14,6 +14,7 @@ import Game from "./components/game-pages/Game";
 import Leaderboard from "./components/game-pages/Leaderboard";
 import Play from './components/game-pages/PlayPage';
 import Guide from './components/game-pages/Guide';
+import Solutions from './components/Solutions';
 
 const {process} = require('./env.json');
 
@@ -49,14 +50,15 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/"><Layout /><Pages /></Route>
-        <Route exact path="/register" component={Login} />
+        {/* <Route exact path="/register" component={Login} />
         <Route exact path="/oauth/redirect">
           <Token onLogin={onLogin} />
         </Route>
+        <Route exact path="/solutions" component={Solutions} />
         <PrivateRoute exact path="/game" component={Game} />
         <PrivateRoute exact path="/leaderboard" component={Leaderboard} />
         <PrivateRoute exact path="/guide" component={Guide} />
-        <PrivateRoute exact path="/play" component={Play} />
+        <PrivateRoute exact path="/play" component={Play} /> */}
       </Switch>
     </Router>
   );
