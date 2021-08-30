@@ -26,7 +26,7 @@ function Home() {
           {/* <img className="shadow" src={riddlerLogoSvg} alt="Riddler Logo" /> */}
         </RiddlerLogo>
         <p className="dates">
-          Riddler'21 has officially ended!
+          See you at Riddler'22!
         </p>
         <HomeBtnWrapper>
           <Button href="#" target="_blank">SOLUTIONS</Button>
