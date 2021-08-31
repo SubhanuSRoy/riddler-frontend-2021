@@ -29,7 +29,7 @@ function Home() {
           See you at Riddler'22!
         </p>
         <HomeBtnWrapper>
-          <Button href="#" target="_blank">SOLUTIONS</Button>
+          <Button href="../../../assets/Solutions.pdf" download>SOLUTIONS</Button>
         </HomeBtnWrapper>
       </HomeContent>
     </HomeContainer>
